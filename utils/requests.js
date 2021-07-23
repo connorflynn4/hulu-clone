@@ -1,3 +1,4 @@
+
 const API_KEY = process.env.API_KEY;
 
 export default {
@@ -44,5 +45,7 @@ export default {
     fetchTV: {
         title: 'TV Movie',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
-    },   
+    }, 
+    
+    
 };
